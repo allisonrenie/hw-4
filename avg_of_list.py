@@ -15,6 +15,7 @@ def list_average(list):
     avg = total/len(list)
     return avg
 
+random.seed()
 my_list = random_list()
 print("List: ")
 for x in my_list:
